@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <style>
+      .home {
+        min-height: 100vh;
+        background: url(./img/eart.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .xbtn {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1000;
+      }
+    </style>
+  </head>
+  <body class="font-poppins">
+    <button
+      class="xbtn w-[67px] h-[73px] relative bg-cover bg-center font-bold text-3xl text-[#763904] flex items-start justify-start mt-[26px] ml-[29px]"
+      style="background-image: url('./img/X\ Button.png')"
+    ></button>
+    <section class="home">
+      <div>
+        <img
+          src="./img/qr.png"
+          alt=""
+          class="bg-white border-[#B09595] rounded-[20px] border-4"
+        />
+      </div>
+    </section>
+  </body>
+</html>

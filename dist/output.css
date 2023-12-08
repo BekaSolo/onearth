@@ -716,6 +716,10 @@ video {
   margin-left: 29px;
 }
 
+.mt-14{
+  margin-top: 3.5rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -730,10 +734,6 @@ video {
 
 .mt-\[75px\]{
   margin-top: 75px;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
 }
 
 .box-border{
@@ -1231,10 +1231,6 @@ video {
 
 .grid-cols-6{
   grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -2590,15 +2586,5 @@ video {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
       paint-order: markers;
     }
-  }
-}
-
-@media (min-width: 1150px){
-  .min-\[1150px\]\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .min-\[1150px\]\:grid-cols-6{
-    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }

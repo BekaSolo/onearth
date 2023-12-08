@@ -5,23 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./dist/output.css" />
-    <style>
-      .home {
-        min-height: 100vh;
-        background: url(./img/eart.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-    </style>
   </head>
   <body class="font-poppins">
-    <section class="home">
-      <div>
+    <section class="relative">
+      <img
+        class="w-full h-[100vh] bg-contain bg-fixed"
+        src="./img/eart.jpg"
+        alt=""
+      />
+      <div
+        class="this absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+      >
         <img src="./img/Thumbnail-Light-2x 1.png" alt="" />
         <button
           class="w-[264px] h-[73px] relative bg-cover bg-center font-bold text-3xl text-[#763904] flex items-center justify-center mx-auto mt-[21px] pb-[10px]"
@@ -39,22 +33,3 @@
     </section>
   </body>
 </html>
-<!-- <div
-      class="w-full h-[100vh] bg-center bg-contain bg-fixed bg-no-repeat"
-      style="background-image: url('./img/eart.jpg')"
-    ></div> -->
-<!-- <div
-      class="min-h-screen bg-fixed bg-cover bg-center"
-      style="background-image: url('./img/eart.jpg')"
-    ></div> -->
-<!-- <div
-      class="min-h-screen bg-fixed bg-cover bg-center"
-      style="background-image: url('./img/eart.jpg')"
-    ></div>
-    <div>gamarjoba</div> -->
-<!-- <img
-      class="w-full h-[100vh] bg-contain bg-fixed"
-      src="./img/eart.jpg"
-      alt=""
-    />
-    <div class="content">content</div> -->

@@ -2602,3 +2602,21 @@ video {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
+
+@media (min-width: 1230px){
+  .min-\[1230px\]\:h-\[316px\]{
+    height: 316px;
+  }
+
+  .min-\[1230px\]\:h-\[230px\]{
+    height: 230px;
+  }
+
+  .min-\[1230px\]\:w-\[180px\]{
+    width: 180px;
+  }
+
+  .min-\[1230px\]\:bg-cover{
+    background-size: cover;
+  }
+}

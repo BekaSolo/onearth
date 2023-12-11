@@ -35,11 +35,12 @@
           </h1>
         </div>
         <div
-          class="grid grid-cols-6 content-center items-center gap-7 mt-[75px]"
+          class="grid grid-cols-6 content-center items-center gap-7 mb-[75px] mt-[75px]"
         >
-          <div
-            class="min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
-            style="background-image: url('./img/1 button.png')"
+          <button
+            id="walkButton"
+            class="change-bg min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
+            style="background-image: url('/img/1 button.png')"
           >
             <div class="min-[1230px]:h-[230px]">
               <img src="./img/Walk.png" alt="" />
@@ -47,9 +48,10 @@
             <h1 class="text-[#6E311F] text-[25px] font-extrabold text-center">
               WALK
             </h1>
-          </div>
-          <div
-            class="min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
+          </button>
+          <button
+            id="cycleButton"
+            class="change-bg min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
             style="background-image: url('./img/1 button.png')"
           >
             <div class="min-[1230px]:h-[230px]">
@@ -58,9 +60,10 @@
             <h1 class="text-[#6E311F] text-[25px] font-extrabold text-center">
               CYCLE
             </h1>
-          </div>
-          <div
-            class="min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
+          </button>
+          <button
+            id="dropButton"
+            class="change-bg min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
             style="background-image: url('./img/1 button.png')"
           >
             <div class="min-[1230px]:h-[230px]">
@@ -69,9 +72,10 @@
             <h1 class="text-[#6E311F] text-[18px] font-extrabold text-center">
               DROP & WALK
             </h1>
-          </div>
-          <div
-            class="min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
+          </button>
+          <button
+            id="carButton"
+            class="change-bg min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
             style="background-image: url('./img/1 button.png')"
           >
             <div class="min-[1230px]:h-[230px]">
@@ -80,9 +84,10 @@
             <h1 class="text-[#6E311F] text-[25px] font-extrabold text-center">
               CAR
             </h1>
-          </div>
-          <div
-            class="min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
+          </button>
+          <button
+            id="busButton"
+            class="change-bg min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
             style="background-image: url('./img/1 button.png')"
           >
             <div class="min-[1230px]:h-[230px]">
@@ -91,9 +96,10 @@
             <h1 class="text-[#6E311F] text-[18px] font-extrabold text-center">
               SCHOOL BUS
             </h1>
-          </div>
-          <div
-            class="min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
+          </button>
+          <button
+            id="publicButton"
+            class="change-bg min-[1230px]:w-[180px] min-[1230px]:h-[316px] relative bg-contain min-[1230px]:bg-cover bg-no-repeat bg-center flex items-center justify-center flex-col"
             style="background-image: url('./img/1 button.png')"
           >
             <div class="min-[1230px]:h-[230px]">
@@ -102,9 +108,17 @@
             <h1 class="text-[#6E311F] text-[13px] font-extrabold text-center">
               PUBLIC TRANSPORT
             </h1>
-          </div>
+          </button>
         </div>
+        <button
+          id="confirmButton"
+          class="hidden w-[156px] h-[64px] relative bg-cover bg-center font-bold text-[25px] text-[#0A7672] flex items-center justify-center mx-auto mt-[21px] pb-[10px]"
+          style="background-image: url('./img/small\ button.png')"
+        >
+          Confirm
+        </button>
       </div>
     </section>
+    <script src="./src/index.js"></script>
   </body>
 </html>

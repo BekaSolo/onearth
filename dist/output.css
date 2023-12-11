@@ -712,8 +712,16 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-\[75px\]{
+  margin-bottom: 75px;
+}
+
 .ml-\[29px\]{
   margin-left: 29px;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
 }
 
 .mt-2{
@@ -730,10 +738,6 @@ video {
 
 .mt-\[75px\]{
   margin-top: 75px;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
 }
 
 .box-border{
@@ -839,14 +843,6 @@ video {
   height: 100vh;
 }
 
-.h-\[230px\]{
-  height: 230px;
-}
-
-.h-\[316px\]{
-  height: 316px;
-}
-
 .h-\[64px\]{
   height: 64px;
 }
@@ -857,10 +853,6 @@ video {
 
 .w-\[156px\]{
   width: 156px;
-}
-
-.w-\[180px\]{
-  width: 180px;
 }
 
 .w-\[264px\]{
@@ -1231,10 +1223,6 @@ video {
 
 .grid-cols-6{
   grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -2593,23 +2581,13 @@ video {
   }
 }
 
-@media (min-width: 1150px){
-  .min-\[1150px\]\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .min-\[1150px\]\:grid-cols-6{
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-}
-
 @media (min-width: 1230px){
-  .min-\[1230px\]\:h-\[316px\]{
-    height: 316px;
-  }
-
   .min-\[1230px\]\:h-\[230px\]{
     height: 230px;
+  }
+
+  .min-\[1230px\]\:h-\[316px\]{
+    height: 316px;
   }
 
   .min-\[1230px\]\:w-\[180px\]{

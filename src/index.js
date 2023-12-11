@@ -25,3 +25,22 @@ confirmButton.addEventListener('click', function() {
 
      
     });
+
+
+
+
+ function handleClickOutside(event) {
+    if (!event.target.closest('.grid')) {
+        // Hide the confirm button
+        confirmButton.style.display = "none";
+
+        // Reset background images of buttons
+        buttons.forEach(button => {
+            button.style.backgroundImage = "url('img/1 button.png')";
+            button.style.height = "316px";
+        });
+    }
+}
+
+// Event listener for clicks outside of the buttons area
+document.addEventListener('click', handleClickOutside);   
